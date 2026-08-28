@@ -1,0 +1,62 @@
+[
+  {
+    "crop_id": "paddy_aman",
+    "crop_name": "Paddy (Aman)",
+    "season": "Monsoon (July - Nov)",
+    "water_requirement": "High",
+    "drought_risk_advice": "High water requirement. If seasonal rainfall is low, consider switching to Hybrid Maize.",
+    "alternative_hybrid_crop": "Hybrid Maize",
+    "steps": [
+      "Field puddling and nursery bed preparation.",
+      "Transplanting 21-25 day old seedlings.",
+      "Maintaining standing water and applying organic/chemical fertilizers.",
+      "Harvesting when 80% of grains turn golden yellow."
+    ],
+    "youtube_iframe_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "crop_id": "hybrid_maize",
+    "crop_name": "Hybrid Maize",
+    "season": "Summer / Pre-Monsoon",
+    "water_requirement": "Low to Moderate",
+    "drought_risk_advice": "Ideal alternative crop for drought-prone areas or low rainfall seasons.",
+    "alternative_hybrid_crop": "Sorghum / Millets",
+    "steps": [
+      "Deep plowing and ridge preparation.",
+      "Sowing seeds at 5cm depth with optimal row spacing.",
+      "Light irrigation during knee-high and tasseling stages.",
+      "Cob harvesting and sun drying."
+    ],
+    "youtube_iframe_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "crop_id": "jute",
+    "crop_name": "Jute",
+    "season": "Summer (March - July)",
+    "water_requirement": "Moderate",
+    "drought_risk_advice": "Requires moist soil during early stages and standing water for retting.",
+    "alternative_hybrid_crop": "Mesta",
+    "steps": [
+      "Fine seedbed preparation.",
+      "Broadcasting or line sowing of seeds.",
+      "Weeding and thinning at 15-20 days.",
+      "Harvesting at small pod stage and retting in clean water."
+    ],
+    "youtube_iframe_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "crop_id": "potato",
+    "crop_name": "Potato",
+    "season": "Winter (Nov - Feb)",
+    "water_requirement": "Moderate",
+    "drought_risk_advice": "Requires controlled furrow irrigation at critical tuber growth stages.",
+    "alternative_hybrid_crop": "Sweet Potato / Mustard",
+    "steps": [
+      "Tilling soil mixed with farmyard manure.",
+      "Planting disease-free seed tubers on ridges.",
+      "Earthing up operations at 30 days after planting.",
+      "Haulm cutting and tuber harvesting."
+    ],
+    "youtube_iframe_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  }
+]

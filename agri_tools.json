@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Solar Powered Automatic Drip Irrigation System",
+    "category": "Water Conservation",
+    "description": "Automated drip irrigation system designed to reduce high water usage in dry zones.",
+    "image_url": "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=600&q=80",
+    "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 2,
+    "name": "Multi-Crop Electric Seed Sower & Weeder",
+    "category": "Land Preparation",
+    "description": "Precision sowing machine for hybrid crops and vegetables.",
+    "image_url": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  }
+]

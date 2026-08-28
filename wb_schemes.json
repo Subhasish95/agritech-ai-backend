@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Krishak Bandhu (Natun) Scheme",
+        "description": "Financial assistance up to ₹10,000 per year per acre for WB farmers, plus ₹2 Lakh death benefit cover.",
+        "eligibility": "All farmers possessing arable land in West Bengal.",
+        "link": "https://krishakbandhu.wb.gov.in/",
+        "state": "West Bengal"
+    },
+    {
+        "title": "Bangla Shasya Bima (Crop Insurance)",
+        "description": "Fully state-sponsored crop insurance covering yield loss due to natural calamities.",
+        "eligibility": "Farmers growing Paddy, Jute, Potato, Sugarcane, Maize, and pulses.",
+        "link": "https://banglashasyabima.net/",
+        "state": "West Bengal"
+    },
+    {
+        "title": "Matir Katha Farmer Portal",
+        "description": "Official agricultural advisory, soil testing results, and seasonal crop package of practices.",
+        "eligibility": "Open access to all WB farmers.",
+        "link": "https://matirkatha.net/",
+        "state": "West Bengal"
+    },
+    {
+        "title": "West Bengal Farm Mechanization Scheme",
+        "description": "Subsidies on farm machinery, tractors, and modern equipment purchase (FMI/CHS/FMMC).",
+        "eligibility": "Registered farmers and Farmer Producer Organizations (FPOs).",
+        "link": "https://matirkatha.net/farm-mechanization/",
+        "state": "West Bengal"
+    }
+]
