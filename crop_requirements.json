@@ -1,0 +1,18 @@
+[
+  {
+    "crop": "Paddy",
+    "season": ["Kharif"],
+    "min_temperature": 20,
+    "max_temperature": 35,
+    "water_requirement": "High",
+    "soil_types": ["Clay", "Alluvial"]
+  },
+  {
+    "crop": "Maize",
+    "season": ["Kharif", "Rabi"],
+    "min_temperature": 18,
+    "max_temperature": 32,
+    "water_requirement": "Medium",
+    "soil_types": ["Loamy", "Alluvial"]
+  }
+]

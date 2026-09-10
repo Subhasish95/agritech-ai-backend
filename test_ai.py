@@ -1,22 +1,33 @@
-import sys
 import requests
 
-# Reconfigure stdout to force UTF-8 printing in Windows terminals
-sys.stdout.reconfigure(encoding='utf-8')
+OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_MODEL = "qwen2.5vl:3b"
 
-URL = "http://localhost:5000/api/ai-advisor"
 payload = {
-    "query": "আমার ২ বিঘা জমি আছে, আমি কি কৃষক বন্ধু প্রকল্পের সুবিধা পাব?"
+    "model": OLLAMA_MODEL,
+    "prompt": "Say exactly: Ollama AI is working",
+    "stream": False
 }
 
-print("Sending question to your local AI server...")
 try:
-    response = requests.post(URL, json=payload, timeout=30)
-    if response.status_code == 200:
-        result = response.json()
-        print("\n--- AI RESPONSE RECEIVED ---")
-        print(result.get("ai_response"))
-    else:
-        print(f"Error {response.status_code}: {response.text}")
+    response = requests.post(
+        OLLAMA_URL,
+        json=payload,
+        timeout=120
+    )
+
+    response.raise_for_status()
+
+    data = response.json()
+
+    print("\nSUCCESS!")
+    print(data.get("response", "").strip())
+
+except requests.exceptions.ConnectionError:
+    print("\nFAILED!")
+    print("Could not connect to Ollama. Make sure Ollama is running.")
+
 except Exception as e:
-    print(f"Connection failed: {e}")
+    print("\nFAILED!")
+    print(type(e).__name__)
+    print(e)
